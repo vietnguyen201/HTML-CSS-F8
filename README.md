@@ -1,6 +1,5 @@
 # HTML-CSS-F8-NEW
 HTML - CSS - Basic
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
