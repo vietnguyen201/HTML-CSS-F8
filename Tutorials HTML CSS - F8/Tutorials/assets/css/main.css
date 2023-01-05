@@ -91,7 +91,7 @@
     padding: 8px;
     border-radius: 2px;
     display: none;
-    top: 170%;
+    top: 120%;
     animation: fadeIn ease .3s;
 }
 
@@ -129,7 +129,7 @@
 /* Header Notification */
 .header__notify {
     position: absolute;
-    top: 170%;
+    top: 120%;
     width: 404px;
     background-color: var(--white-color);
     border-radius: 2px;
@@ -426,10 +426,19 @@
     right: 4px;
 }
 
+.header__navbar-user-menu::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: calc(100% + -145px);
+    width: 160px;
+    height: 20px;
+}
+
 .header__navbar-user-menu{
     position: absolute;
     list-style: none;
-    top: 100%;
+    top: 120%;
     padding-left: 0;
     right: 0;
     background-color: var(--white-color);
