@@ -143,8 +143,7 @@
     animation: HeaderNoitifyGrowth ease-in .2s;
     will-change: opacity, transform;
     display: none;
-    z-index: 3;
-
+    z-index: 2;
 }
 
 .header__notify::before {
