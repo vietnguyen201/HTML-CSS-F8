@@ -666,7 +666,7 @@
     transform-origin: 100% top;
     animation: HeaderNoitifyGrowth ease-in .25s;
     cursor: default;
-    z-index: 2;
+    z-index: 1;
 }
 
 .header__cart-list::before {
@@ -822,7 +822,7 @@
     left: 0;
     box-shadow: 2px 2px rgba(221, 220, 220, 0.6);
     display: none;
-    z-index: 2;
+    z-index: 1;
 }
 
 .header__search-history-heading {
