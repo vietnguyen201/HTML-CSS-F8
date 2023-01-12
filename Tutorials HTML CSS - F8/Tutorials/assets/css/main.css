@@ -143,7 +143,7 @@
     animation: HeaderNoitifyGrowth ease-in .2s;
     will-change: opacity, transform;
     display: none;
-    z-index: 1;
+    z-index: 2;
 
 }
 
