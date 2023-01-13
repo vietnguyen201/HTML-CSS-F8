@@ -1262,12 +1262,11 @@
 
 .footer__download {
     display: flex;
-    align-items: center;
 }
 
 .footer__download-qr {
     width: 80px;
-    height: auto;
+    height: 80px;
     padding: 4px;
     background-color: var(--white-color);
     object-fit: contain;
