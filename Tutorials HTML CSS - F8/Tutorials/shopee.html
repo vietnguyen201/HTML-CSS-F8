@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/reponsive.css">
     <link rel="stylesheet" href="assets/css/fonts/fontawesome-free-6.2.1/css/all.min.css">
 </head>
 
 <body>
     <div class="app">
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
                             <a href="#" class="header__navbar-item-link header__navbar-item--separate">
@@ -349,7 +351,7 @@
             </div>
         </header>
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid-row app__content">
                     <div class="grid-column-2">
                         <nav class="category">
@@ -374,7 +376,7 @@
                         </nav>
                     </div>
                     <div class="grid-column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__title">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
                             <button class="home-filter__btn btn btn--primary">Mới nhất</button>
@@ -1155,7 +1157,7 @@
             </div>
         </div>
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid-row">
                     <div class="grid-column-2-4">
                         <h3 class="footer__heading">Chăm Sóc Khách Hàng</h3>
@@ -1380,7 +1382,7 @@
                 </div>
             </div>
             <div class="footer__bottom">
-                <div class="grid">
+                <div class="grid wide">
                     <p class="footer__text">© 2022 - Bản quyền thuộc về NVV</p>
                 </div>
             </div>
