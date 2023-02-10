@@ -1,20 +1,38 @@
 /* Mobile,  Tablet */
 @media (max-width: 1023px) {
-    .hide-on-mobile-tablet{
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0px;
+    }
+
+    .hide-on-mobile-tablet {
         display: none;
+    }
+
+    .header__search-select-label {
+        display: none;
+    }
+
+    .header__search-select {
+        padding-left: 0;
     }
 }
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-    .hide-on-tablet{
+    .hide-on-tablet {
         display: none;
+    }
+
+    .header__cart {
+        width: 70px;
+        text-align: right;
     }
 }
 
 /* Mobile */
 @media (max-width: 739px) {
-    .hide-on-mobile{
+    .hide-on-mobile {
         display: none;
     }
 }

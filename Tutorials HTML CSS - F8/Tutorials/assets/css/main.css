@@ -521,6 +521,7 @@
 .header__search-select {
     border-left: 1px solid #E8E8E8;
     padding-left: 16px;
+    z-index: 1;
 }
 
 .header__search-select-label {
@@ -814,7 +815,7 @@
     border-radius: 2px;
     top: calc(100% + 2px);
     position: absolute;
-    width: calc(100% - 16px);
+    width: 100%;
     left: 0;
     box-shadow: 2px 2px rgba(221, 220, 220, 0.6);
     display: none;
