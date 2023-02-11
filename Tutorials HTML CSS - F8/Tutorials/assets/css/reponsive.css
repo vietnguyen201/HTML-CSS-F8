@@ -16,6 +16,18 @@
     .header__search-select {
         padding-left: 0;
     }
+    .header__cart-list{
+        position: fixed;
+        top: var(--header-height);
+        width: 100%;
+        right: 0;
+    }
+    .header__cart-item-header {
+        width: 100%;
+    }
+    .header__cart-list::before{
+        display: none;
+    }
 }
 
 /* Tablet */
