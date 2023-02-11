@@ -9,6 +9,13 @@
         display: none;
     }
 
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+    }
+
     .header__search-select-label {
         display: none;
     }
@@ -16,17 +23,29 @@
     .header__search-select {
         padding-left: 0;
     }
-    .header__cart-list{
+
+    .header__cart-list {
         position: fixed;
         top: var(--header-height);
         width: 100%;
         right: 0;
+        padding: 0 calc(((100% - 644px) / 2));
     }
+
     .header__cart-item-header {
         width: 100%;
     }
-    .header__cart-list::before{
+
+    .header__cart-list::before {
         display: none;
+    }
+
+    .app__container {
+        margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+    }
+
+    .header__sort-bar {
+        display: flex;
     }
 }
 
