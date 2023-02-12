@@ -80,10 +80,9 @@
         width: unset;
     }
 
-    .header__cart-item-body{
+    /* .header__cart-item-body{
         width: 300px;
-    }
-
+    } */
 
     .header__logo {
         width: unset;
@@ -114,7 +113,7 @@
     }
 
     .header__cart-item-header {
-        width: 300px;
+        width: 320px;
     }
 
     .pagination-item {
