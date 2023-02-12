@@ -1,4 +1,4 @@
-.app{
+.app {
     overflow: hidden;
 }
 
@@ -487,17 +487,17 @@
     margin: 0 8px;
 }
 
-.header__mobile-search{
+.header__mobile-search {
     padding: 0 12px;
     display: none;
 }
 
-.header__mobile-search-icon{
+.header__mobile-search-icon {
     font-size: 2.4rem;
     color: var(--white-color);
 }
 
-.header__search-checkbox:checked ~ .header__search{
+.header__search-checkbox:checked~.header__search {
     display: flex;
 }
 
@@ -506,7 +506,7 @@
     cursor: pointer;
 }
 
-.header__logo-link{
+.header__logo-link {
     display: block;
     line-height: 0;
 }
@@ -549,7 +549,7 @@
 
 .header__search-select-label {
     font-size: 1.4rem;
-    color: var(--black-color);
+    color: var(--text-color);
     font-weight: 500;
 }
 
