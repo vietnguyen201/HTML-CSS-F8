@@ -1134,6 +1134,7 @@
     font-size: 1.4rem;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .product-item__price-old-label {
