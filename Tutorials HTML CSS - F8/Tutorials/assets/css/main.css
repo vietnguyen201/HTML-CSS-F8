@@ -1134,9 +1134,6 @@
     font-size: 1.4rem;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    max-width: calc(100% - 22px);
-
 }
 
 .product-item__price-old-label {
