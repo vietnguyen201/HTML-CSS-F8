@@ -27,9 +27,7 @@
         padding: 0 calc(((100% - 644px) / 2));
     }
 
-    .header__cart-item-header {
-        width: 100%;
-    }
+
 
     .header__cart-list::before {
         display: none;
@@ -61,6 +59,10 @@
     .header__cart {
         width: 70px;
         text-align: right;
+    }
+
+    .header__cart-item-header {
+        width: 100%;
     }
 }
 
@@ -104,6 +106,10 @@
         top: calc(var(--header-height) + var(--header-sort-bar-height));
         width: 100%;
         left: 0;
+    }
+
+    .header__cart-item-header {
+        width: 300px;
     }
 
     .pagination-item {
