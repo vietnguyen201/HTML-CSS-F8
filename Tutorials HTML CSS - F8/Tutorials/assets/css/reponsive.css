@@ -80,10 +80,6 @@
         width: unset;
     }
 
-    /* .header__cart-item-body{
-        width: 300px;
-    } */
-
     .header__logo {
         width: unset;
     }
@@ -112,9 +108,7 @@
         left: 0;
     }
 
-    .header__cart-item-header {
-        width: 320px;
-    }
+    
 
     .pagination-item {
         margin: 0;
