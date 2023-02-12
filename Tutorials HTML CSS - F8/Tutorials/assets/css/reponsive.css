@@ -57,6 +57,9 @@
         width: 70px;
         text-align: right;
     }
+    .header__cart-item-body{
+        width: 100%;
+    }
 
     .header__cart-item-header {
         width: 100%;
